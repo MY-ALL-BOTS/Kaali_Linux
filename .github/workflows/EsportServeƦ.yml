@@ -43,4 +43,4 @@ jobs:
               echo $(date -u +%T%P) >> Esport.txt
               git add Esport.txt
               git commit -m "Esport ServeƦ : Loop $(date -u +%D-%T%P)"
-              git push -q https://${{ secrets.SUPER_TOKEN }}@github.com/${GITHUB_REPOSITORY} HEAD:EsportServeƦ
+              git push -q https://${{ secrets.BOT_TOKEN }}@github.com/${GITHUB_REPOSITORY} HEAD:EsportServeƦ
